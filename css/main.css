@@ -48,7 +48,7 @@ header {
 header .logo {
   color: #3dd6d0;
   font-size: 0.8em;
-  padding-top: 0.5em;
+  padding-top: 0.3em;
   font-weight: bold;
 }
 header ul {
@@ -56,7 +56,7 @@ header ul {
 }
 header ul a {
   font-size: 0.8em;
-  padding: 0 1em;
+  padding: 0 0.5em;
 }
 
 .social-header,
@@ -206,12 +206,12 @@ footer {
   background: linear-gradient(90deg, #072041 0%, #040e19 100%);
   display: flex;
   justify-content: space-between;
-  padding: 4em 4em 8em 4em;
+  padding: 4em 4em 8em 2em;
 }
 footer .logo {
   color: #3dd6d0;
   font-weight: bold;
-  padding-top: 0.5em;
+  padding-top: 0.3em;
   font-size: 0.8em;
 }
 footer ul {
@@ -220,7 +220,7 @@ footer ul {
 footer ul a {
   font-size: 0.8em;
   color: white;
-  padding: 0 1em;
+  padding: 0 0.5em;
 }
 
 @media only screen and (min-width: 800px) {

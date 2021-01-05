@@ -70,7 +70,7 @@ header {
   .logo {
     color: $accent2;
     font-size: 0.8em;
-    padding-top: 0.5em;
+    padding-top: 0.3em;
     font-weight: bold;
   }
 
@@ -79,7 +79,7 @@ header {
 
     a {
       font-size: 0.8em;
-      padding: 0 1em;
+      padding: 0 0.5em;
     }
   }
 }
@@ -235,14 +235,13 @@ section {
 footer {
   background: $bg-gradient;
   display: flex;
-
   justify-content: space-between;
-  padding: 4em 4em 8em 4em;
+  padding: 4em 4em 8em 2em;
 
   .logo {
     color: $accent2;
     font-weight: bold;
-    padding-top: 0.5em;
+    padding-top: 0.3em;
     font-size: 0.8em;
   }
 
@@ -251,7 +250,7 @@ footer {
     a {
       font-size: 0.8em;
       color: white;
-      padding: 0 1em;
+      padding: 0 0.5em;
     }
   }
 }
