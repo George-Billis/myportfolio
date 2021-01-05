@@ -47,12 +47,15 @@ header {
 }
 header .logo {
   color: #3dd6d0;
+  font-size: 0.8em;
+  padding-top: 0.5em;
   font-weight: bold;
 }
 header ul {
   display: flex;
 }
 header ul a {
+  font-size: 0.8em;
   padding: 0 1em;
 }
 
@@ -208,16 +211,33 @@ footer {
 footer .logo {
   color: #3dd6d0;
   font-weight: bold;
+  padding-top: 0.5em;
+  font-size: 0.8em;
 }
 footer ul {
   display: flex;
 }
 footer ul a {
+  font-size: 0.8em;
   color: white;
   padding: 0 1em;
 }
 
 @media only screen and (min-width: 800px) {
+  header .logo {
+    font-size: 1em;
+  }
+  header ul a {
+    font-size: 1em;
+  }
+
+  footer .logo {
+    font-size: 1em;
+  }
+  footer ul a {
+    font-size: 1em;
+  }
+
   .featured,
 .portfolio {
     text-align: left;
@@ -287,6 +307,10 @@ footer ul a {
     padding: 2em 2em 2em 4em;
   }
 
+  footer {
+    padding: 2em 2em 10em 4em;
+  }
+
   .social-header {
     padding: 2em 4em 2em 0;
   }
@@ -349,6 +373,10 @@ footer ul a {
     padding: 2em 2em 2em 10em;
   }
 
+  footer {
+    padding: 2em 10em 10em 10em;
+  }
+
   .social-header {
     padding: 2em 10em 2em 0;
   }
@@ -364,6 +392,10 @@ footer ul a {
 @media only screen and (min-width: 1550px) {
   header {
     padding: 2em 2em 2em 20em;
+  }
+
+  footer {
+    padding: 2em 20em 10em 20em;
   }
 
   .social-header {
